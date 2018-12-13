@@ -20,12 +20,15 @@ def create_app(test_config=None):
   # ensure the instance folder exists
   try:
     os.makedirs(app.instance_path)
-  exceot OSError:
+  except OSError:
     pass
 
   # a simple page that says hello
   @app.route('/hello')
   def hello():
     return 'Hello World!'
+
+  from . import db
+  db.init_app(app)
 
   return app
