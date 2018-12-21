@@ -1,5 +1,5 @@
-# Another-Stupid-Blog
-Another stupid blog app that nobody will really care about. I made it to learn the basics of creating full-stack applications with Flask
+# Another--Blog
+Another blog app that nobody will really care about. I made it to learn the basics of creating full-stack applications with Flask
 
 Done in a Python3 Dev Environment.
 
